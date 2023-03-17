@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    color: #111517;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    /* width: 100%; */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    background-color: white;
+}
+
+button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.open-close {
+    font-size: 16px;
+}
+
+.control {
+    width: 400px;
+    border-radius: 5px;
+    height: 56px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.control input {
+    width: 100%;
+    padding: 18px 0px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.control i {
+    position: absolute;
+    top: 21px;
+    right: 34px;
+    cursor: pointer;
+}
+
+.listRegion {
+    width: 200px;
+    position: relative;
+}
+
+.region {
+    width: 100%;
+    padding: 18px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.region p {
+    padding-left: 5px;
+}
+
+.list-region {
+    position: absolute;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    width: 200px;
+    background-color: var(--bgcolor);
+}
+
+.container2 {
+    display: inline;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.country {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 264px;
+    height: 336px;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+}
+
+.countryIMG img {
+    height: 160px;
+    width: 267px;
+}
+
+.info {
+    padding: 20px 18px;
+}
+
+.info h4 {
+    font-size:18px ;
+    font-family: 'Nunito Sans';
+    height: 26px;
+    /* width: 77px; */
+    left: 24px;
+    top: 184px;
+    border-radius: nullpx;
+
+}
+.info p{
+    margin-top: 5px;
+    letter-spacing: 1px;
+
+}
